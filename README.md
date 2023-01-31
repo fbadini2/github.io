@@ -1,10 +1,10 @@
 # github.io
 
-## Curriculum Vitae de Fabián Badini
+### Curriculum Vitae de Fabián Badini
 
-### Notas:
+## Notas:
 Desarrollado con:
---HTML5
---CSS3
---Bootstrap5
---JavaScript
+HTML5,
+CSS3,
+Bootstrap,
+JavaScript
