@@ -1,0 +1,183 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 5px 10px #a9b4dd;
+  border-radius: 10px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* limito para pantallas extralargas */
+  max-width: 1200px;
+}
+
+.ul-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.ul-menu li {
+  padding: 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.nav-toggle {
+  background: none;
+  color: #00416a;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.enlace {
+  text-decoration: none;
+  color: #00416a;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #00416a;
+}
+
+.titulo {
+  padding-top: 70px;
+}
+
+.titulo-ppal {
+  display: flex;
+  align-items: center;
+}
+
+.mi-nombre {
+  font-size: 52px;
+  font-family: "Aboreto", cursive;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  color: #e4717a;
+}
+
+.lat-izq {
+  background-color: #e2e6f5;
+  border-radius: 15px;
+}
+
+.modal {
+  background: rgba(0, 0, 0, .4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  visibility: hidden;
+}
+
+.modal.active {
+  visibility: visible;
+}
+
+.popup {
+  background: #fff;
+  box-shadow: 0 5px 10px #000;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  transition: .3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.popup .btn-cerrar {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  text-align: right;
+  transition: .3s ease-in-out;
+  color: #bbbbbb;
+}
+
+.popup .btn-cerrar:hover {
+	color: #000;
+}
+
+
+@media (max-width: 768px) {
+  .cabecera {
+    height: 60px;
+  }
+
+  .ul-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: #e2e6f5;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(100% -60px);
+    /* scroll vertical x si fuera necesario */
+    overflow-y: auto;
+    left: 0%;
+    transition: 0.5s;
+  }
+  .nav-menu-item {
+    font-size: 18px;
+    font-family: "Aboreto", cursive;
+    margin: 0 10px;
+    line-height: 80px;
+    /* para que no me corte el contenido si tiene varias palabras */
+    width: max-content;
+  }
+  .nav-menu-enlace {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  .nav-menu-enlace:hover {
+    background-color: none;
+    transition: 0.6s;
+  }
+  .nav-toggle {
+    display: block;
+  }
+
+  .ul-menu_visible {
+    left: 100%;
+  }
+
+  .foto {
+    text-align: center;
+  }
+  .mi-nombre {
+    font-size: 38px;
+  }
+}

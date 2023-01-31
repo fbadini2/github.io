@@ -1,0 +1,42 @@
+
+.titulo-experiencias{
+    font-size: 25px;
+    font-family: 'Aboreto', cursive;
+    font-weight: 600;
+    color: #00416A;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fecha-experiencia {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+}
+
+.empresa-experiencia {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.posicion-experiencia {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 10px
+}
+
+.experiencias {
+    padding-top: 30px;
+}
+
+.experiencia {
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.descripcion-experiencia {
+    padding-top: 10px;
+}

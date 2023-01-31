@@ -1,0 +1,35 @@
+.titulo-educacion {
+    font-size: 25px;
+    font-family: 'Aboreto', cursive;
+    font-weight: 600;
+    color: #00416A;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.formacion {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.fecha-formacion {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.institucion-formacion {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 10px
+}
+
+.carrera-formacion {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
