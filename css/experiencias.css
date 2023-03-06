@@ -17,10 +17,8 @@
 .empresa-experiencia {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.empresa-experiencia a{ 
     text-decoration: none;
+    color: #0000;
 }
 
 .posicion-experiencia {
