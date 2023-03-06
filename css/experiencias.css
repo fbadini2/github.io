@@ -19,6 +19,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.empresa-experiencia a{ 
+    text-decoration: none;
+}
+
 .posicion-experiencia {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
