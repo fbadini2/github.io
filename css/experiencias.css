@@ -24,6 +24,10 @@
     color: #000000;
 }
 
+.empresa-experiencia a:hover {
+    color: #4F46E5;
+}
+
 .posicion-experiencia {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
